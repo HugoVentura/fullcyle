@@ -1,4 +1,3 @@
 # Full Cycle Developer 2.0 / 3.0
 
-Docker
-	Desafio 01 - Full Cyle Rocks: docker pull hugoventura/fullcyclerocks
+Desafio Docker 01 - Full Cyle Rocks: imagem para download -> docker pull hugoventura/fullcyclerocks
