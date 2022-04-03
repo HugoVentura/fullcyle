@@ -1,0 +1,12 @@
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Domain\bin\Debug\net6.0\FC.CodeFlix.Catalog.Domain.deps.json
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Domain\bin\Debug\net6.0\FC.CodeFlix.Catalog.Domain.dll
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Domain\bin\Debug\net6.0\FC.CodeFlix.Catalog.Domain.pdb
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Domain\obj\Debug\net6.0\FC.CodeFlix.Catalog.Domain.csproj.AssemblyReference.cache
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Domain\obj\Debug\net6.0\FC.CodeFlix.Catalog.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Domain\obj\Debug\net6.0\FC.CodeFlix.Catalog.Domain.AssemblyInfoInputs.cache
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Domain\obj\Debug\net6.0\FC.CodeFlix.Catalog.Domain.AssemblyInfo.cs
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Domain\obj\Debug\net6.0\FC.CodeFlix.Catalog.Domain.csproj.CoreCompileInputs.cache
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Domain\obj\Debug\net6.0\FC.CodeFlix.Catalog.Domain.dll
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Domain\obj\Debug\net6.0\refint\FC.CodeFlix.Catalog.Domain.dll
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Domain\obj\Debug\net6.0\FC.CodeFlix.Catalog.Domain.pdb
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Domain\obj\Debug\net6.0\ref\FC.CodeFlix.Catalog.Domain.dll
