@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "hekb7wf6JoKv3Poq3n56Sp40uYjtGhKOIsCu/bow+0sX5OhskKJ4gSO7Pyoz56ovw+CWgWaIj+cgQxbDDW5i9Q==",
+  "dgSpecHash": "ta4RsPtlXgITPaFSbiz7kzYXYJdKzblsq7UaIE2WoYYjOChTRwLPlbk5C2r0uNsNOXUW/71i5r63hF291stbXQ==",
   "success": true,
   "projectFilePath": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\tests\\FC.CodeFlix.Catalog.UnitTests\\FC.CodeFlix.Catalog.UnitTests.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\ventu\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\ventu\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\ventu\\.nuget\\packages\\fluentassertions\\6.5.1\\fluentassertions.6.5.1.nupkg.sha512",
+    "C:\\Users\\ventu\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
     "C:\\Users\\ventu\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\ventu\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\ventu\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",

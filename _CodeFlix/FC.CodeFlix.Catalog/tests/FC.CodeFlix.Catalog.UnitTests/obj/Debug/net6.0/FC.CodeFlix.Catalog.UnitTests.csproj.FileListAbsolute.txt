@@ -111,3 +111,4 @@ C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catal
 C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catalog.UnitTests\bin\Debug\net6.0\FC.CodeFlix.Catalog.Application.pdb
 C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catalog.UnitTests\bin\Debug\net6.0\MediatR.dll
 C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catalog.UnitTests\bin\Debug\net6.0\MediatR.Contracts.dll
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catalog.UnitTests\bin\Debug\net6.0\FluentValidation.dll

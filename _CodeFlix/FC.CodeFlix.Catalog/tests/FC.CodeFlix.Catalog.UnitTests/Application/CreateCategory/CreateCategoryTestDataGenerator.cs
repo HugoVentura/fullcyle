@@ -4,7 +4,7 @@ namespace FC.CodeFlix.Catalog.UnitTests.Application.CreateCategory
 {
     public class CreateCategoryTestDataGenerator
     {
-        public static IEnumerable<object[]> GetInvalidInputs(int times)
+        public static IEnumerable<object[]> GetInvalidInputs(int times = 12)
         {
             var fixture = new CreateCategoryTestFixture();
             var invalidInputList = new List<object[]>();
@@ -33,12 +33,6 @@ namespace FC.CodeFlix.Catalog.UnitTests.Application.CreateCategory
                         break;
                 }
             }
-
-
-            
-            
-            
-            
 
             return invalidInputList;
         }

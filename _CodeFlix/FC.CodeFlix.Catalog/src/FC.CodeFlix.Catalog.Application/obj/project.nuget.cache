@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8H4IaD+VjL+jH74ek4ATj0OjNKnudaYUoEaS8BZ5pwT5XUl1l7lELFYdVrSw5bAt9PAd3DuKzE2q5VBZwUQAnw==",
+  "dgSpecHash": "URhv7xgYsN3JXfXdpFJEqoJoh7lw0qiLPTK9siXUWndlFCMutX8SYQZe99OjypVyscS1kmWH2hYR3oM7NyI+qQ==",
   "success": true,
   "projectFilePath": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\ventu\\.nuget\\packages\\fluentvalidation\\10.4.0\\fluentvalidation.10.4.0.nupkg.sha512",
     "C:\\Users\\ventu\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\ventu\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
   ],
