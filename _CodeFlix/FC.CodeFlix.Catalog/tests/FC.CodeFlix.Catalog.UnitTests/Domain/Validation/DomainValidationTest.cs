@@ -12,9 +12,9 @@ namespace FC.CodeFlix.Catalog.UnitTests.Domain.Validation
     {
         private Faker Faker { get; set; } = new Faker();
 
-        [Fact(DisplayName = nameof(Test_NotNullOk))]
+        [Fact(DisplayName = nameof(NotNullOk))]
         [Trait("Domain", "DomainValidation - Validation")]
-        public void Test_NotNullOk()
+        public void NotNullOk()
         {
             var value = this.Faker.Commerce.ProductName();
             var acion = () => DomainValidation.NotNull(value, "Value");
@@ -22,9 +22,9 @@ namespace FC.CodeFlix.Catalog.UnitTests.Domain.Validation
             acion.Should().NotThrow();
         }
 
-        [Fact(DisplayName = nameof(Test_NotNullThrowWhenNull))]
+        [Fact(DisplayName = nameof(NotNullThrowWhenNull))]
         [Trait("Domain", "DomainValidation - Validation")]
-        public void Test_NotNullThrowWhenNull()
+        public void NotNullThrowWhenNull()
         {
             string fieldName = Faker.Commerce.ProductName().Replace(" ", "");
             string? value = null;
@@ -35,12 +35,12 @@ namespace FC.CodeFlix.Catalog.UnitTests.Domain.Validation
                 .WithMessage($"{fieldName} should not be null");
         }
 
-        [Theory(DisplayName = nameof(Test_NotNullOrEmptyThrowWhenEmpty))]
+        [Theory(DisplayName = nameof(NotNullOrEmptyThrowWhenEmpty))]
         [Trait("Domain", "DomainValidation - Validation")]
         [InlineData("")]
         [InlineData(" ")]
         [InlineData(null)]
-        public void Test_NotNullOrEmptyThrowWhenEmpty(string? target)
+        public void NotNullOrEmptyThrowWhenEmpty(string? target)
         {
             string fieldName = Faker.Commerce.ProductName().Replace(" ", "");
             Action action = () => DomainValidation.NotNullOrEmpty(target, fieldName);
@@ -50,9 +50,9 @@ namespace FC.CodeFlix.Catalog.UnitTests.Domain.Validation
                 .WithMessage($"{fieldName} should not be empty or null");
         }
 
-        [Fact(DisplayName = nameof(Test_NotNullOrEmptyOk))]
+        [Fact(DisplayName = nameof(NotNullOrEmptyOk))]
         [Trait("Domain", "DomainValidation - Validation")]
-        public void Test_NotNullOrEmptyOk()
+        public void NotNullOrEmptyOk()
         {
             string fieldName = Faker.Commerce.ProductName().Replace(" ", "");
             var target = Faker.Commerce.ProductName();
@@ -62,10 +62,10 @@ namespace FC.CodeFlix.Catalog.UnitTests.Domain.Validation
                 .NotThrow<EntityValidationException>();
         }
 
-        [Theory(DisplayName = nameof(Test_MinLengthThrowWhenLess))]
+        [Theory(DisplayName = nameof(MinLengthThrowWhenLess))]
         [Trait("Domain", "DomainValidation - Validation")]
         [MemberData(nameof(GetValuesSmallerThanMin), parameters: 10)]
-        public void Test_MinLengthThrowWhenLess(string target, int minLength)
+        public void MinLengthThrowWhenLess(string target, int minLength)
         {
             string fieldName = Faker.Commerce.ProductName().Replace(" ", "");
             Action action = () => DomainValidation.MinLength(target, minLength, fieldName);
@@ -87,10 +87,10 @@ namespace FC.CodeFlix.Catalog.UnitTests.Domain.Validation
             }
         }
 
-        [Theory(DisplayName = nameof(Test_MinLengthOk))]
+        [Theory(DisplayName = nameof(MinLengthOk))]
         [Trait("Domain", "DomainValidation - Validation")]
         [MemberData(nameof(GetValuesGreaterThanMin), parameters: 10)]
-        public void Test_MinLengthOk(string target, int minLength)
+        public void MinLengthOk(string target, int minLength)
         {
             string fieldName = Faker.Commerce.ProductName().Replace(" ", "");
             Action action = () => DomainValidation.MinLength(target, minLength, fieldName);
@@ -110,10 +110,10 @@ namespace FC.CodeFlix.Catalog.UnitTests.Domain.Validation
             }
         }
 
-        [Theory(DisplayName = nameof(Test_MaxLengthThrowWhenGreater))]
+        [Theory(DisplayName = nameof(MaxLengthThrowWhenGreater))]
         [Trait("Domain", "DomainValidation - Validation")]
         [MemberData(nameof(GetValuesGreaterThanMax), parameters: 10)]
-        public void Test_MaxLengthThrowWhenGreater(string target, int maxLength)
+        public void MaxLengthThrowWhenGreater(string target, int maxLength)
         {
             string fieldName = Faker.Commerce.ProductName().Replace(" ", "");
             Action action = () => DomainValidation.MaxLength(target, maxLength, fieldName);
@@ -135,10 +135,10 @@ namespace FC.CodeFlix.Catalog.UnitTests.Domain.Validation
             }
         }
 
-        [Theory(DisplayName = nameof(Test_MaxLengthOk))]
+        [Theory(DisplayName = nameof(MaxLengthOk))]
         [Trait("Domain", "DomainValidation - Validation")]
         [MemberData(nameof(GetValuesLessThanMax), parameters: 10)]
-        public void Test_MaxLengthOk(string target, int maxLength)
+        public void MaxLengthOk(string target, int maxLength)
         {
             string fieldName = Faker.Commerce.ProductName().Replace(" ", "");
             Action action = () => DomainValidation.MaxLength(target, maxLength, fieldName);

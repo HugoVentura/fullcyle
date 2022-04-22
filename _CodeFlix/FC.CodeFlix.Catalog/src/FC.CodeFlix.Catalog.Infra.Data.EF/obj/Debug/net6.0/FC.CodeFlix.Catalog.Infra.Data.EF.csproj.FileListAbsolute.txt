@@ -1,0 +1,17 @@
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Infra.Data.EF\bin\Debug\net6.0\FC.CodeFlix.Catalog.Infra.Data.EF.deps.json
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Infra.Data.EF\bin\Debug\net6.0\FC.CodeFlix.Catalog.Infra.Data.EF.dll
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Infra.Data.EF\bin\Debug\net6.0\FC.CodeFlix.Catalog.Infra.Data.EF.pdb
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Infra.Data.EF\bin\Debug\net6.0\FC.CodeFlix.Catalog.Application.dll
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Infra.Data.EF\bin\Debug\net6.0\FC.CodeFlix.Catalog.Domain.dll
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Infra.Data.EF\bin\Debug\net6.0\FC.CodeFlix.Catalog.Application.pdb
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Infra.Data.EF\bin\Debug\net6.0\FC.CodeFlix.Catalog.Domain.pdb
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Infra.Data.EF\obj\Debug\net6.0\FC.CodeFlix.Catalog.Infra.Data.EF.csproj.AssemblyReference.cache
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Infra.Data.EF\obj\Debug\net6.0\FC.CodeFlix.Catalog.Infra.Data.EF.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Infra.Data.EF\obj\Debug\net6.0\FC.CodeFlix.Catalog.Infra.Data.EF.AssemblyInfoInputs.cache
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Infra.Data.EF\obj\Debug\net6.0\FC.CodeFlix.Catalog.Infra.Data.EF.AssemblyInfo.cs
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Infra.Data.EF\obj\Debug\net6.0\FC.CodeFlix.Catalog.Infra.Data.EF.csproj.CoreCompileInputs.cache
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Infra.Data.EF\obj\Debug\net6.0\FC.CodeFlix.Catalog.Infra.Data.EF.csproj.CopyComplete
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Infra.Data.EF\obj\Debug\net6.0\FC.CodeFlix.Catalog.Infra.Data.EF.dll
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Infra.Data.EF\obj\Debug\net6.0\refint\FC.CodeFlix.Catalog.Infra.Data.EF.dll
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Infra.Data.EF\obj\Debug\net6.0\FC.CodeFlix.Catalog.Infra.Data.EF.pdb
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Infra.Data.EF\obj\Debug\net6.0\ref\FC.CodeFlix.Catalog.Infra.Data.EF.dll

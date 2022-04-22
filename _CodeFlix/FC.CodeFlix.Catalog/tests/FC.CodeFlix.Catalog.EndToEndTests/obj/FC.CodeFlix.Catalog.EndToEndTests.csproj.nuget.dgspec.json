@@ -1,0 +1,398 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\tests\\FC.CodeFlix.Catalog.EndToEndTests\\FC.CodeFlix.Catalog.EndToEndTests.csproj": {}
+  },
+  "projects": {
+    "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Api\\FC.CodeFlix.Catalog.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Api\\FC.CodeFlix.Catalog.Api.csproj",
+        "projectName": "FC.CodeFlix.Catalog.Api",
+        "projectPath": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Api\\FC.CodeFlix.Catalog.Api.csproj",
+        "packagesPath": "C:\\Users\\ventu\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ventu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj": {
+                "projectPath": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj"
+              },
+              "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Infra.Data.EF\\FC.CodeFlix.Catalog.Infra.Data.EF.csproj": {
+                "projectPath": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Infra.Data.EF\\FC.CodeFlix.Catalog.Infra.Data.EF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.15.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj",
+        "projectName": "FC.CodeFlix.Catalog.Application",
+        "projectPath": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj",
+        "packagesPath": "C:\\Users\\ventu\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ventu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj": {
+                "projectPath": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.4.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj",
+        "projectName": "FC.CodeFlix.Catalog.Domain",
+        "projectPath": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj",
+        "packagesPath": "C:\\Users\\ventu\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ventu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Infra.Data.EF\\FC.CodeFlix.Catalog.Infra.Data.EF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Infra.Data.EF\\FC.CodeFlix.Catalog.Infra.Data.EF.csproj",
+        "projectName": "FC.CodeFlix.Catalog.Infra.Data.EF",
+        "projectPath": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Infra.Data.EF\\FC.CodeFlix.Catalog.Infra.Data.EF.csproj",
+        "packagesPath": "C:\\Users\\ventu\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Infra.Data.EF\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ventu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj": {
+                "projectPath": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Application\\FC.CodeFlix.Catalog.Application.csproj"
+              },
+              "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj": {
+                "projectPath": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain\\FC.CodeFlix.Catalog.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\tests\\FC.CodeFlix.Catalog.EndToEndTests\\FC.CodeFlix.Catalog.EndToEndTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\tests\\FC.CodeFlix.Catalog.EndToEndTests\\FC.CodeFlix.Catalog.EndToEndTests.csproj",
+        "projectName": "FC.CodeFlix.Catalog.EndToEndTests",
+        "projectPath": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\tests\\FC.CodeFlix.Catalog.EndToEndTests\\FC.CodeFlix.Catalog.EndToEndTests.csproj",
+        "packagesPath": "C:\\Users\\ventu\\.nuget\\packages\\",
+        "outputPath": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\tests\\FC.CodeFlix.Catalog.EndToEndTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ventu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Api\\FC.CodeFlix.Catalog.Api.csproj": {
+                "projectPath": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Api\\FC.CodeFlix.Catalog.Api.csproj"
+              },
+              "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Infra.Data.EF\\FC.CodeFlix.Catalog.Infra.Data.EF.csproj": {
+                "projectPath": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Infra.Data.EF\\FC.CodeFlix.Catalog.Infra.Data.EF.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Bogus": {
+              "target": "Package",
+              "version": "[34.0.2, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.6.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "/QbXrHfnUbRaLnoVlzUi63SyVcrWCOY4t1DYnkRIezU=",
+  "Source": "FC.CodeFlix.Catalog.Api",
+  "BasePath": "_content/FC.CodeFlix.Catalog.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
