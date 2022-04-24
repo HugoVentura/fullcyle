@@ -31,7 +31,6 @@ C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog
 C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Api\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.InMemory.dll
 C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
 C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Api\bin\Debug\net6.0\FC.CodeFlix.Catalog.Application.dll
 C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Api\bin\Debug\net6.0\FC.CodeFlix.Catalog.Domain.dll
@@ -39,3 +38,11 @@ C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog
 C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Api\bin\Debug\net6.0\FC.CodeFlix.Catalog.Application.pdb
 C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Api\bin\Debug\net6.0\FC.CodeFlix.Catalog.Infra.Data.EF.pdb
 C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Api\bin\Debug\net6.0\FC.CodeFlix.Catalog.Domain.pdb
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Api\bin\Debug\net6.0\appsettings.EndToEndTest.json
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Api\bin\Debug\net6.0\MySqlConnector.dll
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Api\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Api\bin\Debug\net6.0\Humanizer.dll
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Api\bin\Debug\net6.0\appsettings.Migrations.json
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\src\FC.CodeFlix.Catalog.Api\bin\Debug\net6.0\Newtonsoft.Json.dll

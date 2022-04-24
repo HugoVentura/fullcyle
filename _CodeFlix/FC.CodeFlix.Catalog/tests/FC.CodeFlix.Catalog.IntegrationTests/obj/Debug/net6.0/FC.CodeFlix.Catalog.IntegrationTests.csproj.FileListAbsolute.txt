@@ -124,3 +124,5 @@ C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catal
 C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catalog.IntegrationTests\obj\Debug\net6.0\FC.CodeFlix.Catalog.IntegrationTests.genruntimeconfig.cache
 C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catalog.IntegrationTests\obj\Debug\net6.0\ref\FC.CodeFlix.Catalog.IntegrationTests.dll
 C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catalog.IntegrationTests\bin\Debug\net6.0\xunit.runner.json
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catalog.IntegrationTests\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catalog.IntegrationTests\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll

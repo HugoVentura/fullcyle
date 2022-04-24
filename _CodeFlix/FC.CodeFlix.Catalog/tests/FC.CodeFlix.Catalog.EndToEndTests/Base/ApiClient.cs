@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.WebUtilities;
+﻿using FC.CodeFlix.Catalog.Api.Configurations.Policies;
+using Microsoft.AspNetCore.WebUtilities;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
@@ -10,9 +11,17 @@ namespace FC.CodeFlix.Catalog.EndToEndTests.Base
     public class ApiClient
     {
         private readonly HttpClient _httpClient;
+        private readonly JsonSerializerOptions _defaultSerializeOptions;
 
-        public ApiClient(HttpClient httpClient) => this._httpClient = httpClient;
-
+        public ApiClient(HttpClient httpClient)
+        {
+            this._httpClient = httpClient;
+            this._defaultSerializeOptions = new JsonSerializerOptions()
+            {
+                PropertyNamingPolicy = new JsonSnakeCasePolicy(),
+                PropertyNameCaseInsensitive = true
+            };
+        }
 
         private async Task<TOutput?> GetOutput<TOutput> (HttpResponseMessage response)
             where TOutput : class
@@ -20,7 +29,7 @@ namespace FC.CodeFlix.Catalog.EndToEndTests.Base
             var outputString = await response.Content.ReadAsStringAsync();
             TOutput? output = null;
             if (!string.IsNullOrWhiteSpace(outputString))
-                output = JsonSerializer.Deserialize<TOutput>(outputString, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+                output = JsonSerializer.Deserialize<TOutput>(outputString, this._defaultSerializeOptions);
 
             return output;
         }
@@ -29,7 +38,8 @@ namespace FC.CodeFlix.Catalog.EndToEndTests.Base
         public async Task<(HttpResponseMessage?, TOutput?)> Post<TOutput>(string route, object payload)
             where TOutput : class
         {
-            var response = await this._httpClient.PostAsync(route, new StringContent(JsonSerializer.Serialize(payload), Encoding.UTF8, "application/json"));
+            var response = await this._httpClient.PostAsync(route, new StringContent(JsonSerializer.Serialize(payload, this._defaultSerializeOptions), 
+                Encoding.UTF8, "application/json"));
             var output = await this.GetOutput<TOutput>(response);
 
             return (response, output);
@@ -38,7 +48,8 @@ namespace FC.CodeFlix.Catalog.EndToEndTests.Base
         public async Task<(HttpResponseMessage?, TOutput?)> Put<TOutput>(string route, object payload)
             where TOutput : class
         {
-            var response = await this._httpClient.PutAsync(route, new StringContent(JsonSerializer.Serialize(payload), Encoding.UTF8, "application/json"));
+            var response = await this._httpClient.PutAsync(route, new StringContent(JsonSerializer.Serialize(payload, this._defaultSerializeOptions), 
+                Encoding.UTF8, "application/json"));
             var output = await this.GetOutput<TOutput>(response);
 
             return (response, output);
@@ -68,7 +79,7 @@ namespace FC.CodeFlix.Catalog.EndToEndTests.Base
             if (queryStringParametersObject is null)
                 return route;
 
-            var parametersJson = JsonSerializer.Serialize(queryStringParametersObject);
+            var parametersJson = JsonSerializer.Serialize(queryStringParametersObject, this._defaultSerializeOptions);
             var parameterDictionary = Newtonsoft.Json.JsonConvert.DeserializeObject<Dictionary<string, string>>(parametersJson);
             return QueryHelpers.AddQueryString(route, parameterDictionary!);
         }

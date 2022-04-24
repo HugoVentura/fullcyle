@@ -53,13 +53,13 @@ namespace FC.CodeFlix.Catalog.IntegrationTests.Infra.Data.EF.Repositories.Catego
             var listClone = new List<Category>(categoriesList);
             var orderedEnumerable = (orderBy.ToLower(), order) switch
             {
-                ("name", SearchOrder.Asc) => listClone.OrderBy(p => p.Name),
-                ("name", SearchOrder.Desc) => listClone.OrderByDescending(p => p.Name),
+                ("name", SearchOrder.Asc) => listClone.OrderBy(p => p.Name).ThenBy(p => p.Id),
+                ("name", SearchOrder.Desc) => listClone.OrderByDescending(p => p.Name).ThenByDescending(p => p.Id),
                 ("id", SearchOrder.Asc) => listClone.OrderBy(p => p.Id),
                 ("id", SearchOrder.Desc) => listClone.OrderByDescending(p => p.Id),
                 ("createdat", SearchOrder.Asc) => listClone.OrderBy(p => p.CreatedAt),
                 ("createdat", SearchOrder.Desc) => listClone.OrderByDescending(p => p.CreatedAt),
-                _ => listClone.OrderBy(p => p.Name)
+                _ => listClone.OrderBy(p => p.Name).ThenBy(p => p.Id)
             };
 
             return orderedEnumerable.ThenBy(p => p.Id).ToList();

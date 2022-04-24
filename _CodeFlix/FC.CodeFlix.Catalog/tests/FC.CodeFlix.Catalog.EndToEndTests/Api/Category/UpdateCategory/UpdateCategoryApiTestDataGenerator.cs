@@ -6,7 +6,7 @@ namespace FC.CodeFlix.Catalog.EndToEndTests.Api.Category.UpdateCategory
     {
         public static IEnumerable<object[]> GetInvalidInputs()
         {
-            var fixture = new UpdateCategoryTestFixture();
+            var fixture = new UpdateCategoryApiTestFixture();
             var invalidInputList = new List<object[]>();
             var totalInvalidCases = 3;
 

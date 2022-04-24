@@ -1,4 +1,6 @@
-﻿using FC.CodeFlix.Catalog.Application.UseCases.Category.Common;
+﻿using FC.CodeFlix.Catalog.Api.ApiModels.Response;
+using FC.CodeFlix.Catalog.Application.UseCases.Category.Common;
+using FC.CodeFlix.Catalog.EndToEndTests.Extensions.DateTime;
 using FluentAssertions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -24,16 +26,17 @@ namespace FC.CodeFlix.Catalog.EndToEndTests.Api.Category.GetCategory
             await this._fixture.Persistence.InsertList(exampleCategoriesList);
             var exampleCategory = exampleCategoriesList[10];
 
-            var (response, output) = await this._fixture.ApiClient.Get<CategoryModelOutput>($"/categories/{exampleCategory.Id}");
+            var (response, output) = await this._fixture.ApiClient.Get<ApiResponse<CategoryModelOutput>>($"/categories/{exampleCategory.Id}");
 
             response.Should().NotBeNull();
             response!.StatusCode.Should().Be(HttpStatusCode.OK);
             output.Should().NotBeNull();
-            output!.Id.Should().Be(exampleCategory.Id);
-            output.Name.Should().Be(exampleCategory.Name);
-            output.Description.Should().Be(exampleCategory.Description);
-            output.IsActive.Should().Be(exampleCategory.IsActive);
-            output.CreatedAt.Should().Be(exampleCategory.CreatedAt);
+            output!.Data.Should().NotBeNull();
+            output.Data.Id.Should().Be(exampleCategory.Id);
+            output.Data.Name.Should().Be(exampleCategory.Name);
+            output.Data.Description.Should().Be(exampleCategory.Description);
+            output.Data.IsActive.Should().Be(exampleCategory.IsActive);
+            output.Data.CreatedAt.TrimMilliSeconds().Should().Be(exampleCategory.CreatedAt.TrimMilliSeconds());
         }
 
         [Fact(DisplayName = nameof(ErrorWhenNotFound))]

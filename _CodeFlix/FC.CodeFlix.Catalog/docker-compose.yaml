@@ -1,11 +1,18 @@
 version: '3.4'
 
 services:
-  fc.codeflix.catalog.fb:
+  fc.codeflix.catalog.db:
     container_name: catalogdb
     hostname: catalogdb
-    image: mysql:5.7.16
+    image: mysql
     ports:
       - 3306:3306
     environment:
-      MYSQL_ROOT_PASSWORD: c4t4l0g.@
+      MYSQL_ROOT_PASSWORD: C0D3fl1x.@
+    networks:
+      - service_catalog
+
+networks:
+  service_catalog:
+    name: service_catalog
+    driver: bridge

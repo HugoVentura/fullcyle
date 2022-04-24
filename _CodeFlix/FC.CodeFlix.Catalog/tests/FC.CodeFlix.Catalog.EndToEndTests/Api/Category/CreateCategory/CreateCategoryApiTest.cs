@@ -1,4 +1,5 @@
-﻿using FC.CodeFlix.Catalog.Application.UseCases.Category.Common;
+﻿using FC.CodeFlix.Catalog.Api.ApiModels.Response;
+using FC.CodeFlix.Catalog.Application.UseCases.Category.Common;
 using FC.CodeFlix.Catalog.Application.UseCases.Category.CreateCategory;
 using FluentAssertions;
 using Microsoft.AspNetCore.Http;
@@ -23,18 +24,19 @@ namespace FC.CodeFlix.Catalog.EndToEndTests.Api.Category.CreateCategory
         {
             var input = this._fixture.GetExampleInput();
 
-            var (response, output) = await this._fixture.ApiClient.Post<CategoryModelOutput>("/categories", input);
-            var dbCategory = await this._fixture.Persistence.GetById(output!.Id);
+            var (response, output) = await this._fixture.ApiClient.Post<ApiResponse<CategoryModelOutput>>("/categories", input);
+            var dbCategory = await this._fixture.Persistence.GetById(output!.Data.Id);
 
             response.Should().NotBeNull();
             response!.StatusCode.Should().Be(HttpStatusCode.Created);
 
             output.Should().NotBeNull();
-            output.Id.Should().NotBeEmpty();
-            output.Name.Should().Be(input.Name);
-            output.Description.Should().Be(input.Description);
-            output.IsActive.Should().Be(input.IsActive);
-            output.CreatedAt.Should().NotBeSameDateAs(default);
+            output!.Data.Should().NotBeNull();
+            output.Data.Id.Should().NotBeEmpty();
+            output.Data.Name.Should().Be(input.Name);
+            output.Data.Description.Should().Be(input.Description);
+            output.Data.IsActive.Should().Be(input.IsActive);
+            output.Data.CreatedAt.Should().NotBeSameDateAs(default);
 
             dbCategory.Should().NotBeNull();
             dbCategory!.Id.Should().NotBeEmpty();

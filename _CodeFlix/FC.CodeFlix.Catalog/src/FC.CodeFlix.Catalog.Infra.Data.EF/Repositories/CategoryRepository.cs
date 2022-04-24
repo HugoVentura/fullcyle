@@ -46,16 +46,16 @@ namespace FC.CodeFlix.Catalog.Infra.Data.EF.Repositories
         {
             var orderedQuery = (orderProperty.ToLower(), order) switch
             {
-                ("name", SearchOrder.Asc) => query.OrderBy(p => p.Name),
-                ("name", SearchOrder.Desc) => query.OrderByDescending(p => p.Name),
+                ("name", SearchOrder.Asc) => query.OrderBy(p => p.Name).ThenBy(p => p.Id),
+                ("name", SearchOrder.Desc) => query.OrderByDescending(p => p.Name).ThenByDescending(p => p.Id),
                 ("id", SearchOrder.Asc) => query.OrderBy(p => p.Id),
                 ("id", SearchOrder.Desc) => query.OrderByDescending(p => p.Id),
                 ("createdat", SearchOrder.Asc) => query.OrderBy(p => p.CreatedAt),
                 ("createdat", SearchOrder.Desc) => query.OrderByDescending(p => p.CreatedAt),
-                _ => query.OrderBy(p => p.Name)
+                _ => query.OrderBy(p => p.Name).ThenBy(p => p.Id)
             };
 
-            return orderedQuery.ThenBy(p => p.Id);
+            return orderedQuery;
         }
     }
 }

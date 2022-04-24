@@ -426,3 +426,8 @@ C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catal
 C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catalog.EndToEndTests\bin\Debug\net6.0\FC.CodeFlix.Catalog.Api.pdb
 C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catalog.EndToEndTests\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catalog.EndToEndTests\bin\Debug\net6.0\xunit.runner.json
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catalog.EndToEndTests\bin\Debug\net6.0\appsettings.EndToEndTest.json
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catalog.EndToEndTests\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catalog.EndToEndTests\bin\Debug\net6.0\MySqlConnector.dll
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catalog.EndToEndTests\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\ProjectsGitHub\fullcyle\_CodeFlix\FC.CodeFlix.Catalog\tests\FC.CodeFlix.Catalog.EndToEndTests\bin\Debug\net6.0\appsettings.Migrations.json
