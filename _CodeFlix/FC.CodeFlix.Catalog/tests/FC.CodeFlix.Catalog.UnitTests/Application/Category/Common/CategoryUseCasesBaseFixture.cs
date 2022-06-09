@@ -2,7 +2,6 @@
 using FC.CodeFlix.Catalog.Domain.Repository;
 using FC.CodeFlix.Catalog.UnitTests.Common;
 using Moq;
-using System;
 using DomainEntity = FC.CodeFlix.Catalog.Domain.Entity;
 
 namespace FC.CodeFlix.Catalog.UnitTests.Application.Category.Common
@@ -30,8 +29,6 @@ namespace FC.CodeFlix.Catalog.UnitTests.Application.Category.Common
 
             return categoryDescription;
         }
-
-        public bool GetRandomBoolean() => new Random().NextDouble() < 0.5;
 
         public DomainEntity.Category GetExampleCategory() => new(GetValidCategoryName(), GetValidCategoryDescription(), GetRandomBoolean());
     }

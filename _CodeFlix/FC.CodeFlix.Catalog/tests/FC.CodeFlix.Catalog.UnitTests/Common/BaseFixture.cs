@@ -1,4 +1,5 @@
 ﻿using Bogus;
+using System;
 
 namespace FC.CodeFlix.Catalog.UnitTests.Common
 {
@@ -7,5 +8,7 @@ namespace FC.CodeFlix.Catalog.UnitTests.Common
         public Faker Faker { get; set; }
 
         protected BaseFixture() => Faker = new Faker("pt_BR");
+
+        public bool GetRandomBoolean() => new Random().NextDouble() < 0.5;
     }
 }

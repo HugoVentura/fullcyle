@@ -16,7 +16,7 @@ namespace FC.CodeFlix.Catalog.IntegrationTests.Application.UseCases.Category.Get
 
         public GetCategoryTest(GetCategoryTestFixture fixture) => this._fixture = fixture;
 
-        [Fact(DisplayName = nameof(Category.GetCategory))]
+        [Fact(DisplayName = nameof(GetCategory))]
         [Trait("Integration/Application", "GetCategory - Use Cases")]
         public async Task GetCategory()
         {

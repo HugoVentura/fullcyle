@@ -29,8 +29,8 @@ namespace FC.CodeFlix.Catalog.UnitTests.Domain.Entity.Category
             category.Description.Should().Be(validCategory.Description);
             category.Id.Should().NotBeEmpty();
             category.CreatedAt.Should().NotBeSameDateAs(default);
-            (category.CreatedAt > dateTimeBefore).Should().BeTrue();
-            (category.CreatedAt < dateTimeAfter).Should().BeTrue();
+            (category.CreatedAt >= dateTimeBefore).Should().BeTrue();
+            (category.CreatedAt <= dateTimeAfter).Should().BeTrue();
             category.IsActive.Should().BeTrue();
         }
 

@@ -6,7 +6,6 @@ using FluentAssertions;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading;
-using System.Threading.Tasks;
 using Xunit;
 using ApplicationUseCases = FC.CodeFlix.Catalog.Application.UseCases.Category.CreateCategory;
 

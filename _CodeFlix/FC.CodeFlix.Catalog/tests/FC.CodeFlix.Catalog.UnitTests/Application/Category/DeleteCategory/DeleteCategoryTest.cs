@@ -27,24 +27,15 @@ namespace FC.CodeFlix.Catalog.UnitTests.Application.Category.DeleteCategory
             var repositoryMock = _fixture.GetRepositoryMock();
             var unitOfWorkMock = _fixture.GetUnitOfWorkMock();
             var categoryExample = _fixture.GetExampleCategory();
-            repositoryMock.Setup(
-                p => p.Get(categoryExample.Id, It.IsAny<CancellationToken>())
-            ).ReturnsAsync(categoryExample);
+            repositoryMock.Setup(p => p.Get(categoryExample.Id, It.IsAny<CancellationToken>())).ReturnsAsync(categoryExample);
             var input = new DeleteCategoryInput(categoryExample.Id);
             var useCase = new UseCase.DeleteCategory(repositoryMock.Object, unitOfWorkMock.Object);
 
-
             await useCase.Handle(input, CancellationToken.None);
 
-            repositoryMock.Verify(
-                p => p.Get(categoryExample.Id, It.IsAny<CancellationToken>()), Times.Once
-            );
-            repositoryMock.Verify(
-                p => p.Delete(categoryExample, It.IsAny<CancellationToken>()), Times.Once
-            );
-            unitOfWorkMock.Verify(
-                p => p.Commit(It.IsAny<CancellationToken>()), Times.Once
-            );
+            repositoryMock.Verify(p => p.Get(categoryExample.Id, It.IsAny<CancellationToken>()), Times.Once);
+            repositoryMock.Verify(p => p.Delete(categoryExample, It.IsAny<CancellationToken>()), Times.Once);
+            unitOfWorkMock.Verify(p => p.Commit(It.IsAny<CancellationToken>()), Times.Once);
         }
 
         [Fact(DisplayName = nameof(DeleteCategory_ThrowWhenCategoryNotFound))]
@@ -54,19 +45,14 @@ namespace FC.CodeFlix.Catalog.UnitTests.Application.Category.DeleteCategory
             var repositoryMock = _fixture.GetRepositoryMock();
             var unitOfWorkMock = _fixture.GetUnitOfWorkMock();
             var exampleGuid = Guid.NewGuid();
-            repositoryMock.Setup(
-                p => p.Get(exampleGuid, It.IsAny<CancellationToken>())
-            ).ThrowsAsync(new NotFoundException($"Category '{exampleGuid}'"));
+            repositoryMock.Setup(p => p.Get(exampleGuid, It.IsAny<CancellationToken>())).ThrowsAsync(new NotFoundException($"Category '{exampleGuid}'"));
             var input = new DeleteCategoryInput(exampleGuid);
             var useCase = new UseCase.DeleteCategory(repositoryMock.Object, unitOfWorkMock.Object);
 
             var task = async () => await useCase.Handle(input, CancellationToken.None);
 
             await task.Should().ThrowAsync<NotFoundException>();
-
-            repositoryMock.Verify(
-                p => p.Get(exampleGuid, It.IsAny<CancellationToken>()), Times.Once
-            );
+            repositoryMock.Verify(p => p.Get(exampleGuid, It.IsAny<CancellationToken>()), Times.Once);
         }
     }
 }

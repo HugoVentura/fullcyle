@@ -18,5 +18,7 @@ namespace FC.CodeFlix.Catalog.Application.Common
             Sort = sort;
             Dir = dir;
         }
+
+        public SearchInput ToSearchInput() => new(this.Page, this.PerPage, this.Search, this.Sort, this.Dir);
     }
 }
