@@ -1,6 +1,0 @@
-{
-  "FC.CodeFlix.Catalog.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Api",
-  "FC.CodeFlix.Catalog.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Application",
-  "FC.CodeFlix.Catalog.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Domain",
-  "FC.CodeFlix.Catalog.Infra.Data.EF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\ProjectsGitHub\\fullcyle\\_CodeFlix\\FC.CodeFlix.Catalog\\src\\FC.CodeFlix.Catalog.Infra.Data.EF"
-}
